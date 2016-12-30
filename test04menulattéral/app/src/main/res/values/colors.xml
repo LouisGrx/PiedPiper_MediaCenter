@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorLight">#9e7d51</color>
+    <color name="colorDark">#5456af</color>
+    <color name="colorMedium">#3498db</color>
+
+    <color name="colorPrimary">@color/colorMedium</color>
+    <color name="colorPrimaryDark">@color/colorDark</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dark">#000000</color>
+    <color name="colorBackgroundSubtitle">@color/colorMedium</color>
+    <color name="colorTextSubtitle">@color/colorLight</color>
+    <color name="colorBackgroundPoster">@color/colorMedium</color>
+</resources>

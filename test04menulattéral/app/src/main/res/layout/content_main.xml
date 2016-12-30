@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.margaux.test04menulattral.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media Center by Pied Piper"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:textSize="38sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorDark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Ce média center propose un contenu qui s'approche de l'infini. Les possibilités sont immenses. Vous êtes sur le point de pouvoir visionner non pas une mais bien DEUX bandes-annonces de films et séries éxtrèmement qualitatifs.
+ Puisque chez PiedPiper, on ne fait pas les choses à moitiés, vous allez également avoir le droit d'écouter en bonus deux tracks dance-floor sélectionnés parmi les plus Hip-Hop du TOP50 MCM.
+            "
+            android:textColor="@color/dark" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Créé par : Margaux Barillot et Benjamin Rebondy "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|italic" />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serie_row"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <TextView
+        android:id="@+id/serie_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Nom de la série"
+        style="@style/subtitleMedia"/>
+
+    <LinearLayout
+        android:id="@+id/content_serie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/serie_poster"
+            android:contentDescription="poster"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_menu_series"
+            android:background="@color/colorBackgroundPoster"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/serie_year"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Année de sortie"/>
+
+            <TextView
+                android:id="@+id/serie_creator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="creator"/>
+
+            <TextView
+                android:id="@+id/serie_actors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Acteurs principaux"/>
+
+            <TextView
+                android:id="@+id/serie_genre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Genre"/>
+
+            <TextView
+                android:id="@+id/nbr_season"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nombre de saisons"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/season_button"
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:text="Saisons"/>
+
+                <Button
+                    android:id="@+id/synopsis_button"
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:text="Synopsis"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:title="Toutes les catégories" />
+        <item
+            android:id="@+id/nav_films"
+            android:icon="@drawable/ic_menu_films"
+            android:title="Films" />
+        <item
+            android:id="@+id/nav_series"
+            android:icon="@drawable/ic_menu_series"
+            android:title="Séries" />
+        <item
+            android:id="@+id/nav_musics"
+            android:icon="@drawable/ic_menu_musics"
+            android:title="Musiques" />
+
+    </group>
+
+</menu>
